@@ -1,0 +1,38 @@
+.newProduct{
+    flex: 4;
+    padding: 20px;
+}
+.newProductForm{
+    display: flex;
+    flex-direction: column;
+}
+.newProductItem{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.newProductItem>label{
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 10px;
+}
+.newProductItem>input{
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid grey;
+    outline: none;
+}
+.newProductBtn{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px;
+    background-color: darkblue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+
+}
+
+.newProductSelect{
+    padding: 10px;
+}
